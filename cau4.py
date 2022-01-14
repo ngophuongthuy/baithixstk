@@ -1,0 +1,8 @@
+name=input("Nhập họ tên của bạn : ")
+masinhvien=input("Nhập mã sinh viên : ")
+print("Họ tên qcủa bạn là : ",name,masinhvien)
+values=input("Nhập giá trị: ")
+l=values.split(",")
+t=tuple(l)
+print (l)
+print (t)
